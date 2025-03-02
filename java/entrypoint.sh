@@ -2,7 +2,9 @@
 cd /home/container || exit 1
 
 # Configure colors
-PURPLE='\033[38;5;129m'
+PURPLE='\033[38;5;183m'
+GREEN='\033[38;5;46m'
+RED='\033[38;5;196m'
 RESET_COLOR='\033[0m'
 
 # Print Current Java Version
@@ -49,7 +51,7 @@ cat << 'EOF'
                            ++++++++++
 EOF
 echo -e "========================================================================================================"
-echo -e "Welcome to ${PURPLE}Expanse! Need help? Reach us on Discord: discord.gg/expanse ${RESET_COLOR}"
+echo -e "${PURPLE}Welcome to Expanse${RESET_COLOR}! Need help? Reach us on Discord: discord.gg/expanse "
 echo -e "========================================================================================================"
 echo -e "${GREEN} booting up your server"
 eval "${MODIFIED_STARTUP}"
