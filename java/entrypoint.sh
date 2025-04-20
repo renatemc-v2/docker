@@ -42,7 +42,7 @@ cat << 'EOF'
            *##########*
 EOF
 echo -e "========================================================================================================"
-echo -e "${PURPLE}Welcome to Expanse${RESET_COLOR}! Need help? Reach us on Discord: discord.gg/expanse "
+echo -e "${PURPLE}Welcome to Expanse${RESET_COLOR}! Need help? Reach us on Discord: discord.gg/expansehost "
 echo -e "========================================================================================================"
 echo -e "${GREEN} booting up your server"
 eval "${MODIFIED_STARTUP}"
