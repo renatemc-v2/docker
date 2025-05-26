@@ -63,4 +63,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/dchu096/expanse:java_${{ matrix.tag }}
+            ghcr.io/renatemc-v2/docker:java_${{ matrix.tag }}
