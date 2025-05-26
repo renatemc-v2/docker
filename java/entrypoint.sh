@@ -2,9 +2,9 @@
 cd /home/container || exit 1
 
 # Configure colors
-PURPLE='\033[38;5;183m'
 GREEN='\033[38;5;46m'
 RED='\033[38;5;196m'
+PURPLE='\033[38;5;201m'
 RESET_COLOR='\033[0m'
 
 # Print Current Java Version
@@ -33,7 +33,7 @@ cat << 'EOF'
 ::-       ::::  -:::::::    :::      :::   :::::::.::    ::::.   :::::::    .::           :::      :::::::::   
 EOF
 echo -e "========================================================================================================"
-echo -e "${RED}This is a RenateMC Infrastructure, if you have any issues please contact dchu096 "
+echo -e "${PURPLE}This is a RenateMC Infrastructure, if you have any issues please contact dchu096 ${RESET_COLOR}"
 echo -e "========================================================================================================"
 echo -e "${GREEN} booting up your server"
 eval "${MODIFIED_STARTUP}"
